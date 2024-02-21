@@ -1,0 +1,30 @@
+{
+  "name": "booking-app",
+  "version": "1.0.0",
+  "description": "A booking app for small businesses",
+  "main": "bookingApp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aris-ang/booking-app.git"
+  },
+  "keywords": [
+    "booking"
+  ],
+  "author": "Archimidis Angelopoulos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aris-ang/booking-app/issues"
+  },
+  "homepage": "https://github.com/aris-ang/booking-app#readme",
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "dotenv": "^16.4.5",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "mongoose": "^8.1.3"
+  }
+}
