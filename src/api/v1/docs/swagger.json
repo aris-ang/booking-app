@@ -1,0 +1,20 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "Booking App REST API",
+    "description": "The REST API of a small booking app.",
+    "version": "0.0.1"
+  },
+  "paths": {
+    "/api/v1/users/sign-in": {
+      "get": {
+        "summary": "Represents a user sign-in request",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  }
+}
