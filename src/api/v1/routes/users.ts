@@ -1,4 +1,5 @@
-import {Router} from "express";
+import express, {Router} from "express";
+import {validateToken} from "../middleware/validateToken";
 
 export const router: Router = Router();
 
@@ -8,6 +9,10 @@ export const router: Router = Router();
   next()
 });*/
 // define the home page route
-router.get('/sign-in', (req, res) => {
+router.post('/sign-in', (req: express.Request, res: express.Response) => {
+  res.status(200).send({user: "Signed in!"});
+});
+
+router.get('/token', (req, res) => {
   res.status(200).send({user: "Signed in!"});
 });
